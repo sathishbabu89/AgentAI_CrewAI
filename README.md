@@ -87,9 +87,9 @@ Python 3.9 or higher is recommended. You can add this to your README's prerequis
 To generate/update the requirements file:
 If you need to update this later, you can generate it from your virtual environment using:
 
-bash
-Copy
+```bash
 pip freeze > requirements.txt
+```
 This requirements file ensures all users will have the exact versions of packages that were tested with your application, preventing version conflicts. 
 The versions specified are current as of June 2024 and are known to work well together.
 
