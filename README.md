@@ -5,7 +5,8 @@ Here's a comprehensive `README.md` file for your GitHub repository that covers s
 ```markdown
 # Banking Legacy System Decomposition Analyzer
 
-A Streamlit application that analyzes monolithic banking applications and recommends microservice decomposition strategies using CrewAI and DeepSeek LLM.
+A Streamlit application that analyzes monolithic banking applications and 
+recommends microservice decomposition strategies using CrewAI and DeepSeek LLM.
 
 ## Features
 
