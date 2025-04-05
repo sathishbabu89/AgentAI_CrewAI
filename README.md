@@ -81,6 +81,17 @@ Or install dependencies manually:
 ```bash
 pip install streamlit crewai langchain-openai openai networkx matplotlib requests litellm
 ```
+Recommended Python Version:
+Python 3.9 or higher is recommended. You can add this to your README's prerequisites section.
+
+To generate/update the requirements file:
+If you need to update this later, you can generate it from your virtual environment using:
+
+bash
+Copy
+pip freeze > requirements.txt
+This requirements file ensures all users will have the exact versions of packages that were tested with your application, preventing version conflicts. 
+The versions specified are current as of June 2024 and are known to work well together.
 
 ## How It Works (CrewAI Implementation)
 
